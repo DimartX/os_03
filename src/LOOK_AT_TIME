@@ -1,0 +1,30 @@
+letit@fork $ time ./pquick 0 1000000 < ../draft/02.t > out.txt 
+./pquick 0 1000000 < ../draft/02.t > out.txt  0,94s user 0,06s system 98% cpu 1,012 total
+letit@fork $ time ./pquickn 1 1000000 < ../draft/02.t > out.txt 
+./pquickn 1 1000000 < ../draft/02.t > out.txt  0,95s user 0,05s system 125% cpu 0,796 total
+letit@fork $ time ./pquickn 2 1000000 < ../draft/02.t > out.txt 
+./pquickn 2 1000000 < ../draft/02.t > out.txt  0,97s user 0,04s system 129% cpu 0,776 total
+letit@fork $ time ./pquickn 3 1000000 < ../draft/02.t > out.txt 
+./pquickn 3 1000000 < ../draft/02.t > out.txt  0,97s user 0,04s system 132% cpu 0,762 total
+letit@fork $ time ./pquickn 4 1000000 < ../draft/02.t > out.txt 
+./pquickn 4 1000000 < ../draft/02.t > out.txt  0,96s user 0,05s system 144% cpu 0,700 total
+letit@fork $ time ./pquickn 5 1000000 < ../draft/02.t > out.txt 
+./pquickn 5 1000000 < ../draft/02.t > out.txt  0,98s user 0,04s system 143% cpu 0,711 total
+letit@fork $ time ./pquickn 6 1000000 < ../draft/02.t > out.txt 
+./pquickn 6 1000000 < ../draft/02.t > out.txt  0,97s user 0,05s system 148% cpu 0,689 total
+letit@fork $ time ./pquickn 7 1000000 < ../draft/02.t > out.txt 
+./pquickn 7 1000000 < ../draft/02.t > out.txt  0,95s user 0,08s system 174% cpu 0,591 total
+letit@fork $ time ./pquickn 8 1000000 < ../draft/02.t > out.txt 
+./pquickn 8 1000000 < ../draft/02.t > out.txt  0,97s user 0,09s system 190% cpu 0,555 total
+letit@fork $ time ./pquickn 9 1000000 < ../draft/02.t > out.txt 
+./pquickn 9 1000000 < ../draft/02.t > out.txt  0,97s user 0,12s system 197% cpu 0,550 total
+letit@fork $ time ./pquickn 10 1000000 < ../draft/02.t > out.txt 
+./pquickn 10 1000000 < ../draft/02.t > out.txt  0,97s user 0,20s system 182% cpu 0,640 total
+letit@fork $ time ./pquickn 10 1000000 < ../draft/02.t > out.txt
+./pquickn 10 1000000 < ../draft/02.t > out.txt  1,00s user 0,17s system 197% cpu 0,590 total
+letit@fork $ time ./pquickn 10 1000000 < ../draft/02.t > out.txt
+./pquickn 10 1000000 < ../draft/02.t > out.txt  0,99s user 0,17s system 192% cpu 0,603 total
+letit@fork $ time ./pquickn 11 1000000 < ../draft/02.t > out.txt 
+./pquickn 11 1000000 < ../draft/02.t > out.txt  0,99s user 0,30s system 190% cpu 0,679 total
+letit@fork $ time ./pquickn 12 1000000 < ../draft/02.t > out.txt 
+./pquickn 12 1000000 < ../draft/02.t > out.txt  0,97s user 0,50s system 199% cpu 0,738 total
